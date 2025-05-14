@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+footer {
+    align-self: flex-end;
+    margin: 1rem;
+}
+
+h1, footer {
+    margin-block-start: auto;
+}
